@@ -142,7 +142,7 @@ public class SuperToast {
         public static final int MEDIUM = (2750);
         public static final int LONG = (3500);
         public static final int EXTRA_LONG = (4500);
-
+        public static final int SUPER_EXTRA_LONG = (15000);
     }
 
     /**
@@ -419,11 +419,11 @@ public class SuperToast {
      */
     public void setDuration(int duration) {
 
-        if(duration > Duration.EXTRA_LONG) {
+        if(duration > Duration.SUPER_EXTRA_LONG) {
 
             Log.e(TAG, TAG + ERROR_DURATIONTOOLONG);
 
-            this.mDuration = Duration.EXTRA_LONG;
+            this.mDuration = Duration.SUPER_EXTRA_LONG;
 
         } else {
 
