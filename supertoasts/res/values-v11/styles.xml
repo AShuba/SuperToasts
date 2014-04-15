@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Styles for API 19+ devices -->
+    <!-- Styles for API 11+ devices -->
 
     <style name="DefaultText">
         <item name="android:text">Default</item>
@@ -19,7 +19,7 @@
         <item name="android:background">@drawable/background_kitkat_gray</item>
     </style>
 
-    <!-- Styles for API 19+ devices -->
+    <!-- Styles for API 11+ devices -->
     <!-- Styles for BUTTON type SuperActivityToasts -->
 
     <style name="SuperActivityToast_Button_RootLayout" parent="DefaultRootLayout">
@@ -46,7 +46,7 @@
         <item name="android:drawablePadding">8dp</item>
     </style>
 
-    <!-- Styles for API 19+ devices -->
+    <!-- Styles for API 11+ devices -->
     <!-- Styles for PROGRESS type SuperActivityToasts -->
 
     <style name="SuperActivityToast_Progress_ProgressBar" parent="android:Widget.Holo.ProgressBar">
@@ -58,7 +58,7 @@
         <item name="android:paddingLeft">0dp</item>
     </style>
 
-    <!-- Styles for API 19+ devices -->
+    <!-- Styles for API 11+ devices -->
     <!-- Styles for PROGRESS_HORIZONTAL type SuperActivityToasts -->
 
     <style name="SuperActivityToast_ProgressHorizontal_RootLayout" parent="DefaultRootLayout">

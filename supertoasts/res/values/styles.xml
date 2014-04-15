@@ -47,7 +47,7 @@
 
     <!-- Styles for PROGRESS type SuperActivityToasts -->
 
-    <style name="SuperActivityToast_Progress_ProgressBar" parent="android:Widget.Holo.ProgressBar">
+    <style name="SuperActivityToast_Progress_ProgressBar" parent="android:Widget.ProgressBar">
         <item name="android:layout_width">32dp</item>
         <item name="android:layout_marginLeft">8dp</item>
     </style>
@@ -67,7 +67,7 @@
         <item name="android:paddingBottom">0dp</item>
     </style>
 
-    <style name="SuperActivityToast_ProgressHorizontal_ProgressBar" parent="android:Widget.Holo.ProgressBar.Horizontal">
+    <style name="SuperActivityToast_ProgressHorizontal_ProgressBar" parent="android:Widget.ProgressBar.Horizontal">
         <item name="android:layout_marginLeft">12dp</item>
         <item name="android:layout_marginRight">12dp</item>
         <item name="android:layout_marginBottom">4dp</item>
